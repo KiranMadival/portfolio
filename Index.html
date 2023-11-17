@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran Madival</title>
+    <link rel="stylesheet" href="./Style.css">
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="hom activelink">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#work">My Works</a>
+            <a href="#contact">Contact</a> 
+        </nav>
+    </header>
+
+<!------------------------>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1><span class="k">K</span>iran Madival</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+           
+            <div class="social-media">
+                <a href="mailto:kiranbs2020@gmail.com"><i class='bx bx-mail-send'></i></a>
+                <a href="https://instagram.com/k_madival_?igshid=MzNlNGNkZWQ4Mg=="><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/k_madival_2001?t=qgc5ZAFgHGqFWke58AlLsw&s=09 "><i class='bx bxl-twitter' ></i></a>
+                <a href="tel: +918277339737"><i class='bx bx-phone-call' ></i></a>
+            </div>
+            <a href="./Images/Kiran_Resume.pdf"  class="btn" download="MyCV" >Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./Images/photo1.png" alt="">
+        </div>
+    </section>
+
+    
+
+    <!--==================ABOUT ME===================================================-->
+
+    
+    <div id="about">
+        <div class="line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="about-col">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <div class="box">
+                        <p>My name is <b style="color: rgb(255, 0, 106);">Kiran</b>. I am from Chikkamagaluru, Karnataka. I did my graduation in BCA <br>
+                            at Bhandarkars' Arts and Science college Kundapura from Manglore University. <br>
+                            I belog to a nuclear family.
+                            My hobbies are playing VolleyBall, cricket and Travelling. <br>
+                            My technical skills are
+                            Java, SQL, HTML, CSS, JavaScript.
+                        </p>
+
+
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')" ><span><img src="./Images/scholarship.png" height="30" width="30"></span>Education</p>
+                            <p class="tab-links" onclick="opentab('skills')"><span><img src="./Images/skill.png" height="30" width="30">Skills</p>
+                            <p class="tab-links" onclick="opentab('project')"><span><img src="./Images/presentation.png" height="30" width="30">Project Details</p>
+                        </div>
+    
+                        <div class="tab-contents ed active-tab" id="education">   <!--Education-->
+                            <div class="eduu">
+                                <ul >
+                                    <li>
+                                        <span>BCA</span>  <br>
+                                        2019-2022 <br>
+                                        Percentage - 83.53% <br>
+                                        Bhandarkars' Arts and Science college <br>
+                                        Manglore University.
+                                    </li>
+                                    <li>
+                                        <span>PUC</span>  <br>
+                                        2017-2019  <br>
+                                        Percentage - 78.33% <br>
+                                        Govt. SMSD PU College <br>
+                                        Koppa.
+                                    </li>
+                                    <li>
+                                        <span>SSLC</span>  <br>
+                                        2016-2017    <br>
+                                        Percentage - 80% <br>
+                                        Govt. Junior College <br>
+                                        Koppa.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="tab-contents sk" id="skills">   <!--Skills-->
+                            <div class="ski">
+
+                                <ul>
+                                    <li>
+                                        <span><span><img src="./Images/sql-server.png" height="30" width="30"></span>&nbsp;ORACLE SQL</span> <br>
+                                            <li class="li2">
+                                                > SQL statements: <br>
+                                                   &nbsp; &nbsp; &nbsp; DML, DDL & TCL languages. <br>
+                                                > RDBMS Concept : <br>
+                                                &nbsp; &nbsp; &nbsp; Datatypes, Constraints, Data integrity. <br>
+    
+                                                > Good Understanding in Normalization. <br>
+                                                > Well known in Joins Concepts. <br>
+                                                > Able to solve queries using <br>
+                                                &nbsp; &nbsp;  subqueries and corelated subqueries.
+                                            </li>
+                                        
+                                    </li>
+                                </ul>
+
+
+                                <ul class="java">
+                                    <li>
+                                        <span><span><img src="./Images/java.png" height="30" width="30"></span>&nbsp;Java</span> <br>
+                                            <li class="li2">
+                                                > Better knowledge in Operators, control <br>
+                                                &nbsp; &nbsp; &nbsp;   and Looping statements <br>
+                                                > strong commands on Methods, constructors, <br>
+                                                &nbsp; &nbsp; &nbsp;   Class and Object <br>
+                                                > Good Understanding in oop's concept: <br>
+                                                Encapsulation, Inheritance, Polymorphism, Abstraction
+                                            </li>
+                                    </li>
+                                </ul>
+
+
+                                <ul class="Web">
+                                    <li>
+                                        <span><span><img src="./Images/code.png" height="30" width="30"></span>&nbsp;Web Technology</span> <br>
+                                            <li class="li2">
+                                                HTML <br>
+                                                CSS <br>
+                                                JavaScript <br>
+                                                Bootstrap <br> 
+                                            </li>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+                            
+                        </div>
+
+
+                        <div class="tab-contents pro" id="project">   <!--Project-->
+                            <ul>
+                                <li>
+                                    <span>ONLINE JOB PORTAL</span> <br> <br>
+
+                                    <b>>Overview</b> :- Online job poratl is web application which provides facility to the <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp;job seeker to search for various job as per there qualification and<br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp;can apply for the job. This poratl also designed for various employer <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp;who required to recruit employees in there organization. they can upload <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp;job vacancy information in their organization.
+                                                   <br> <br>
+
+                                     <b> >Team Size</b> :- 2 members. <br><br>
+
+                                        
+                                    <b>>Language Used </b>:-  <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; Frontend : HTML, CSS, Javascrpit, Bootstrap. <br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp;  Backend  : Java, MySQL <br>
+
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                   
+                </div>
+            </div> 
+        </div>
+    </div>
+    <br><br><br>
+
+
+    <!--=======================MY WORK==================================-->
+
+    <section class="portfolio" id="work">
+        <h2 class="heading">My Works</h2>
+
+        <div class="portfolio-container">
+           
+
+            <div class="portfolio-box">
+                <img src="./Images/wacth.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Stop Watch</h4>
+                    <p>Stop Wacth using html and css and javascript</p>
+                    <a href="./stopWatch.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="./Images/facebook1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>FacebookLogin</h4>
+                    <p>Facebook Login with validation using html and css and javascript</p>
+                    <a href="./Facebook_Login/Login.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/Digi_clock.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>DigitalClock</h4>
+                    <p>Digital Clock using html and css and javascript</p>
+                    <a href="./Clock.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+           
+
+            <div class="portfolio-box">
+                <img src="./Images/youtube.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Youtube.com</h4>
+                    <p>Youtube page using html & css</p>
+                    <a href="./Youtube.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/surprice.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Surprice.com</h4>
+                    <p>Surprice.com web page using html & css</p>
+                    <a href="./Surprise.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/netflixxx.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>NETFLIX.com</h4>
+                    <p>Netflix.com web page using html & css</p>
+                    <a href="./Netflix/netflix.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/royal.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Royal Brothers.com</h4>
+                    <p>Royalbrothers.com page using html and css</p>
+                    <a href="./Royal.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section>
+
+    <br><br>
+
+
+
+
+    <!--=======================CONTACT==================================-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title sub">Contact Me</h1>
+                    <p><i class='bx bx-send'></i> kiranbs2020@gmail.com</p>
+                    <p><i class='bx bx-phone-call'></i> 8277339737</p>
+                    <div class="social-icons">
+                        <a href="mailto:kiranbs2020@gmail.com"><i class='bx bx-mail-send'></i></a>
+                        <a href="https://instagram.com/k_madival_?igshid=MzNlNGNkZWQ4Mg=="><i class='bx bxl-instagram'></i></a>
+                        <a href="https://twitter.com/k_madival_2001?t=qgc5ZAFgHGqFWke58AlLsw&s=09 "><i class='bx bxl-twitter' ></i></a>
+                        <a href="tel: +918277339737"><i class='bx bx-phone-call' ></i></a>
+
+                    </div>
+
+                </div> 
+
+                <div class="contact-right">
+                    <form action="">
+
+                        <input type="text" name="Name" id="name" placeholder="Enter The Name" required>
+                        <input type="email" name="email" id="email"  placeholder="Enter The Email" required>
+                        <textarea name="Message" rows="6" id="msg" placeholder="Message"></textarea>
+
+                        <button type="submit" class="btn2" id="bt">Submit</button>
+                    </form>
+                    
+                </div>
+            </div> 
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+    
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+
+    <script src="./Script.js"></script>
+</body>
+</html>
